@@ -1,0 +1,10 @@
+https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2024/01-docker-terraform/homework.md
+1. --rm
+2. 0.42.0
+3. 15612
+4. 2019-09-26
+5. Brooklyn, Manhattan, Queens
+6. JFK Airport
+7. 
+
+homework_url

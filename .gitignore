@@ -1,0 +1,9 @@
+week_1_basics_n_setup/2_docker_sql/output.csv
+week_1_basics_n_setup/2_docker_sql/taxi+_zone_lookup.csv
+week_1_basics_n_setup/2_docker_sql/yellow_tripdata_2021-01.csv
+week_1_basics_n_setup/2_docker_sql/green_tripdata_2019-09.csv
+week_1_basics_n_setup/2_docker_sql/green_tripdata_2019-09.csv.gz
+week_1_basics_n_setup/2_docker_sql/ny_taxi_postgres_data/
+.DS_Store
+week_1_basics_n_setup/.DS_Store
+.venv

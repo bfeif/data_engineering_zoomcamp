@@ -1,0 +1,7 @@
+jupyter
+pandas
+sqlalchemy
+psycopg2
+nbconvert
+jupyter_contrib_nbextensions
+polars

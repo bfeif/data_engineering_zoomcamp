@@ -1,8 +1,9 @@
-FROM python:3.9
+FROM python:3.9.1
 
-RUN pip install pandas
+RUN apt-get install wget
+RUN pip install pandas sqlalchemy psycopg2
 
 WORKDIR /app
-COPY pipeline.py pipeline.py
+COPY ingest_yellow_taxi_data_to_postgres.py ingest_yellow_taxi_data_to_postgres.py
 
-ENTRYPOINT [ "python", "pipeline.py" ]
+ENTRYPOINT [ "python", "ingest_yellow_taxi_data_to_postgres.py" ]
