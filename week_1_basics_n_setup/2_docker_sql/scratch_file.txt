@@ -75,3 +75,15 @@ docker run -it --network=pg-network taxi_ingest:v001 \
   --db=ny_taxi \
   --table_name=yellow_taxi_trips \
   --url=https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2021-01.csv.gz
+
+
+## https://youtu.be/XOSUt8Ih3zA?si=L2tYzNAZiJWM1yQf&t=571
+docker run -it \
+  -e POSTGRES_USER="root" \
+  -e POSTGRES_PASSWORD="root" \
+  -e POSTGRES_DB="ny_taxi" \
+  -v dtc_postgres_volume_local:/var/lib/postgresql/data \
+  -p 5431:5432 \
+  --network=pg-network \
+  --name=pg-database \
+  postgres:13
